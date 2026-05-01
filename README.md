@@ -75,6 +75,5 @@ The UI will be available at http://localhost:3000
 # 👨‍💻 Developed By
 Krishna Srivastava
 
-Built with passion, caffeine, and clean air in mind.
 
 

@@ -11,7 +11,7 @@ def load_data():
     columns = ['unit_number', 'time_cycle', 'op_setting_1', 'op_setting_2', 'op_setting_3']
     columns += [f'sensor_{i}' for i in range(1, 22)]
 
-    df = pd.read_csv('data/raw/train_FD004.txt', sep='\s+', header=None, names=columns)
+    df = pd.read_csv('data/raw/train_FD004.txt', sep=r'\s+', header=None, names=columns)
     
     rul = pd.DataFrame(df.groupby('unit_number')['time_cycle'].max()).reset_index()
     rul.columns = ['unit_number', 'max_cycle']

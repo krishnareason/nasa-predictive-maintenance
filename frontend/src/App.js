@@ -31,7 +31,7 @@ function App() {
   const [formData, setFormData] = useState(fd001Data);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
-  const BASE_API_URL = "https://nasa-predictive-maintenance.onrender.com";
+  const BASE_API_URL = "https://nasa-predictive-maintenance-project.onrender.com";
   //const BASE_API_URL = "http://localhost:8000";
   const switchEngine = (engineType) => {
     setActiveTab(engineType);

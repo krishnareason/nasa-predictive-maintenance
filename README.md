@@ -32,8 +32,9 @@ The inference engine does not rely on simple linear regression. It implements a 
 
 If you wish to run the full decoupled architecture on your local machine, follow these steps:
 
-### 1. Clone the Repository
 ```bash
+### 1. Clone the Repository
+
 git clone [https://github.com/krishnareason/nasa-predictive-maintenance.git](https://github.com/krishnareason/nasa-predictive-maintenance.git)
 cd nasa-predictive-maintenance
 

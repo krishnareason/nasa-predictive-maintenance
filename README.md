@@ -32,7 +32,7 @@ The inference engine does not rely on simple linear regression. It implements a 
 
 If you wish to run the full decoupled architecture on your local machine, follow these steps:
 
-```bash
+```
 ### 1. Clone the Repository
 
 git clone [https://github.com/krishnareason/nasa-predictive-maintenance.git](https://github.com/krishnareason/nasa-predictive-maintenance.git)
@@ -70,6 +70,11 @@ The UI will be available at http://localhost:3000
 
 > Implementation of an Agentic AI layer to autonomously suggest maintenance schedules based on the RUL output.
 > Time-series sequence modeling using LSTMs for historical degradation tracking.
+```
 
+# 👨‍💻 Developed By
+Krishna Srivastava
+
+Built with passion, caffeine, and clean air in mind.
 
 
